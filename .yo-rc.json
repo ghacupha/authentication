@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "io.github.auth",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "uaa",
+    "baseName": "authentication",
+    "packageName": "io.github.auth",
+    "packageFolder": "io/github/auth",
+    "serverPort": "8987",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": true,
+    "jwtSecretKey": "OTUwMjM2OGUwNDE0MWM4ZGNjYzk4MGU5Yjk4OWEyNDBiMmRlNjU0ZDlhZmFjYTdkZTJiNDhiODg4ODE1NWI0NzdkYmY2NDAwNmRiMmU3ZDk2YzJlMjU3YWVkMjFjODgwMjIzYTRmZmFkYzI1YzY2NWZjYWJjYjBkMTYyNzRiMDA=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1595434773750,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [],
+    "skipClient": true
+  }
+}
