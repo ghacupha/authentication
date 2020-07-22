@@ -2,11 +2,11 @@ version: '2'
 services:
   authentication-postgresql:
     image: postgres:12.3
-    # volumes:
-    #     - ~/volumes/jhipster/authentication/postgresql/:/var/lib/postgresql/data/
+    volumes:
+      - ~/volumes/jhipster/authentication/postgresql/:/var/lib/authentication/data/
     environment:
-      - POSTGRES_USER=authentication
-      - POSTGRES_PASSWORD=
-      - POSTGRES_HOST_AUTH_METHOD=trust
+      - POSTGRES_USER=${PG_DATABASE_DEV_USER}
+      - POSTGRES_PASSWORD=${PG_DATABASE_DEV_PASSWORD}
+      - POSTGRES_DB=authentication
     ports:
-      - 5432:5432
+      - 8988:5432
