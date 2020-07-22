@@ -37,6 +37,8 @@
         <profile.swagger />
         <profile.tls />
 
+        <docker.image.prefix>ghacupha</docker.image.prefix>
+
         <!-- Dependency versions -->
         <jhipster-dependencies.version>3.9.0</jhipster-dependencies.version>
         <!-- The spring-boot version should match the one managed by
@@ -632,7 +634,7 @@
                             <image>adoptopenjdk:11-jre-hotspot</image>
                         </from>
                         <to>
-                            <image>authentication:latest</image>
+                            <image>${docker.image.prefix}/${project.artifactId}:${project.version}</image>
                         </to>
                         <container>
                             <entrypoint>
